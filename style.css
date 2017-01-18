@@ -1,0 +1,89 @@
+html, body {
+    height: 100%;
+}
+
+
+#cover {
+    background: #222 url('cover.jpg') center center no-repeat;
+    background-size: cover;
+    color: white;
+    height: 100%;
+    text-align: center;
+    display: flex;
+    align-items: center;
+}
+
+#cover-caption {
+    width: 100%
+}
+
+#logo {
+    width: 60%;
+}
+
+#muyPronto {
+    font-family: marker;
+    color: black;
+}
+
+@font-face {
+    font-family: "marker";
+    src: url(./freshmarker.ttf) format("truetype");
+}
+.section-content {
+    padding: 5rem 0;
+}
+
+.card-img-top {
+    max-width: 100%
+}
+#about {
+    background: url('images/about.jpg') center center no-repeat;
+    background-size: cover;
+}
+.about-text {
+    background: rgba(0,0,0,0.9);
+    padding: 0.7rem;
+    color: white
+}
+
+/* Custom, iPhone Retina */ 
+@media only screen and (min-width : 320px) {
+
+    .card-deck .card {
+        display: block;
+        margin-bottom: 1rem;
+        vertical-align: top;
+    }
+}
+
+/* Extra Small Devices, Phones */ 
+@media only screen and (min-width : 480px) {
+    
+}
+
+/* Small Devices, Tablets */
+@media only screen and (min-width : 768px) {
+    
+}
+
+/* Medium Devices, Desktops */
+@media only screen and (min-width : 992px) {
+    .card-deck .card {
+        display: table-cell;
+        margin-bottom: 0px;
+        vertical-align: top;
+    }
+}
+
+/* Large Devices, Wide Screens */
+@media only screen and (min-width : 1200px) {
+
+}
+
+
+
+
+.card-columns .card {
+    break-inside: avoid;
+}
