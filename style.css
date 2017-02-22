@@ -11,6 +11,11 @@ html, body {
     text-align: center;
     display: flex;
     align-items: center;
+        /* Create the parallax scrolling effect */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
 }
 
 #cover-caption {
@@ -38,11 +43,15 @@ html, body {
     max-width: 100%
 }
 #about {
-    background: url('images/about.jpg') center center no-repeat;
+    background: url('images/paisaje2.jpg') center center no-repeat;
+            /* Create the parallax scrolling effect */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
     background-size: cover;
 }
 .about-text {
-    background: rgba(0,0,0,0.9);
+    background: rgba(0,0,0,0.6);
     padding: 0.7rem;
     color: white
 }
@@ -86,4 +95,9 @@ html, body {
 
 .card-columns .card {
     break-inside: avoid;
+}
+
+.profpic {
+    float: right;
+    border-radius: 50%
 }
